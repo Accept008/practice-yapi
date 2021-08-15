@@ -16,9 +16,11 @@ db.createUser({ user:'admin',pwd:'123456',roles:[ { role:'userAdminAnyDatabase',
 db.auth('admin', '123456')
 docker logs ac-mongo
 ```
+
 ![](./img/1.1.mongodb-install.png)
 
 - 使用admin创建用于yapi的数据库
+
 ![](./img/1.2.mongodb-admin-login.jpg)
 ![](./img/1.3.create-yapi-db.png)
 
@@ -26,23 +28,30 @@ docker logs ac-mongo
 ```text
 采用解压方式安装，并配置环境变量即可
 ```
+
 ![](./img/node-install.jpg)
 
 ## 部署YApi应用
 - 安装部署程序
+
 ![](./img/2.1.yapi-npm-install.jpg)
 
 - 启动部署程序
+
 ![](./img/2.2.yapi-server-run.jpg)
 
 - 配置YApi应用
+
 ![](./img/2.3.yapi-config.jpg)
 
 - 执行YApi应用部署
+
 ![](./img/2.4.yapi-cli-apply%20.jpg)
 
 - 部署结果确认
+
 ![](./img/2.5.yapi-cli-apply-result.jpg)
 
 - 启动YApi应用
+
 ![](./img/3.1.yapi-app-run.jpg)
